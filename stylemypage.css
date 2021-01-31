@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #f2e5d6;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.header{
+	height: 150vh;
+}
+
+.navbar-style{
+	box-shadow: 0 5px 10px #e5bfbe;
+	text-transform: uppercase;
+}
+
+.logo{
+	height: 80px;
+	padding: 3px 0;
+}
+
+.icon-bar{
+	background: #e5bfbe;
+}
+
+li a{
+	color: #333;
+	margin-top: 15px;
+}
+
+.big-text{
+	font-size: 50px;
+	margin: 20px 0;
+	color: #cb909c;
+}
+
+.banner-info{
+	margin: 30px 0;
+}
+
+.banner-image{
+	margin: 0 0;
+}
+
+.extra{
+	width: 60px;
+	length: 60px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+footer{
+	position: absolute;
+	margin-bottom: -280px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #8c5362;
+	height: auto;
+	width: 100vx;
+	font-family: "Open Sans";
+	padding-top: 40px;
+	color: #a97d7e;
+}
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer-content p{
+	max-width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+	margin:0 10px;
+	margin-top: 15px;
+}
+
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.socials a i{
+	font-size: 5rem;
+	transition: color .4s ease;
+}
+
+.socials a:hover i{
+	color: #8c5362;
+}
+
